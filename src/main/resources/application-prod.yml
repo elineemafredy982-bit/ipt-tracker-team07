@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    show-sql: false
+  datasource:
+    hikari:
+      maximum-pool-size: 5
+
+logging:
+  level:
+    org.hibernate.SQL: WARN
+    root: INFO
+
+springdoc:
+  swagger-ui:
+    enabled: true
+  api-docs:
+    enabled: true
